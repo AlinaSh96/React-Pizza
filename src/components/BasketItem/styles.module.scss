@@ -1,0 +1,40 @@
+.cart__item {
+    border-top: 1px solid #f6f6f6;
+    display: flex;
+    margin-top: 30px;
+    padding-top: 30px;
+    width: 100%;
+
+    .img {
+        align-items: center;
+        display: flex;
+        margin-right: 15px;
+        width: 10%;
+
+        img {
+            height: 80px;
+            width: 80px
+        }
+    }
+
+    .info {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 40%;
+    }
+
+    .count {
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+        width: 13%;
+    }
+
+    .price {
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        width: 33%;
+    }
+}
